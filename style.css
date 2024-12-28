@@ -1,0 +1,41 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background: url('assets/images/south-africa-bg.jpg') no-repeat center center fixed;
+  background-size: cover;
+  color: #fff;
+}
+
+header {
+  background: rgba(0, 0, 0, 0.8);
+  padding: 20px;
+}
+
+header nav h1 {
+  display: inline;
+}
+
+header nav ul {
+  list-style: none;
+  padding: 0;
+  float: right;
+}
+
+header nav ul li {
+  display: inline;
+  margin: 0 10px;
+}
+
+main .hero {
+  text-align: center;
+  margin-top: 100px;
+}
+
+.btn {
+  padding: 10px 20px;
+  background: #ff9800;
+  color: #fff;
+  text-decoration: none;
+  border-radius: 5px;
+}

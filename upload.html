@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Upload Music | South African Music</title>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  <header>
+    <nav>
+      <h1>South African Music</h1>
+      <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="register.html">Register</a></li>
+        <li><a href="upload.html">Upload</a></li>
+        <li><a href="about.html">About</a></li>
+      </ul>
+    </nav>
+  </header>
+  <main>
+    <section>
+      <h2>Upload Your Music</h2>
+      <form action="#" method="POST" id="uploadForm" enctype="multipart/form-data">
+        <label for="songTitle">Song Title:</label>
+        <input type="text" id="songTitle" name="songTitle" required>
+
+        <label for="artistName">Artist Name:</label>
+        <input type="text" id="artistName" name="artistName" required>
+
+        <label for="genre">Genre:</label>
+        <select id="genre" name="genre">
+          <option value="pop">Pop</option>
+          <option value="jazz">Jazz</option>
+          <option value="hiphop">Hip Hop</option>
+          <option value="traditional">Traditional</option>
+        </select>
+
+        <label for="file">Upload File (MP3 Only):</label>
+        <input type="file" id="file" name="file" accept=".mp3" required>
+
+        <button type="submit" class="btn">Upload</button>
+      </form>
+    </section>
+  </main>
+  <footer>
+    <p>© 2024 South African Music Platform. All Rights Reserved.</p>
+  </footer>
+</body>
+</html>
